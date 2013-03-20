@@ -1,0 +1,8 @@
+escape ^eE
+bindkey -k k9 detach
+bindkey -k k8 lockscreen
+vbell off
+
+
+screen screen -m -S inner-$STY 
+
